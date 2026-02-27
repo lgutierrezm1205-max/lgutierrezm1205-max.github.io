@@ -1,78 +1,78 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body */
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: #0f0f0f;
-    color: #ffffff;
-}
-
-/* Hero Section */
-.hero {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f5f5f7;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10%;
+    text-align: center;
 }
 
+/* Hero Section */
 .hero-content {
-    max-width: 900px;
+    max-width: 800px;
+    padding: 20px;
 }
 
-.hero h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    letter-spacing: -2px;
+/* Name */
+h1 {
+    font-size: 3.2rem;
+    color: #1f3a5f; /* Azul profesional BA + DA */
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
-.hero h2 {
-    margin-top: 15px;
+/* Subtitle */
+h2 {
     font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 25px;
     font-weight: 400;
-    color: #aaaaaa;
 }
 
-.hero p {
-    margin-top: 25px;
-    font-size: 1.2rem;
+/* Description */
+p {
+    font-size: 1.1rem;
+    color: #666;
     line-height: 1.6;
-    color: #cccccc;
-    max-width: 600px;
+    margin-bottom: 40px;
 }
 
 /* Buttons */
-.hero-buttons {
-    margin-top: 35px;
-}
-
 .hero-buttons a {
     text-decoration: none;
-    padding: 12px 24px;
-    margin-right: 15px;
-    border-radius: 6px;
-    font-weight: 500;
-    transition: all 0.3s ease;
+    padding: 12px 28px;
+    margin: 0 10px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
 }
 
+/* Primary Button */
 .btn-primary {
-    background-color: white;
-    color: black;
-}
-
-.btn-primary:hover {
-    background-color: #dddddd;
-}
-
-.btn-secondary {
-    border: 1px solid #555;
+    background-color: #1f3a5f;
     color: white;
 }
 
+.btn-primary:hover {
+    background-color: #162b46;
+}
+
+/* Secondary Button */
+.btn-secondary {
+    border: 1px solid #1f3a5f;
+    color: #1f3a5f;
+}
+
 .btn-secondary:hover {
-    background-color: #222;
+    background-color: #1f3a5f;
+    color: white;
 }
