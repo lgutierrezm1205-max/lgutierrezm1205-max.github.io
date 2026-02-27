@@ -13,8 +13,14 @@ body {
 }
 
 /* Hero Section */
+.hero {
+    padding: 140px 20px;
+    text-align: center;
+}
+
 .hero-content {
     max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
