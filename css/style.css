@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -6,87 +6,73 @@
 }
 
 body {
-    background-color: #0d0d0d;
+    font-family: 'Inter', sans-serif;
+    background-color: #0f0f0f;
     color: #ffffff;
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-/* HERO */
+/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 10%;
 }
 
 .hero-content {
     max-width: 900px;
-    text-align: center;
 }
 
-/* Name */
-.hero-content h1 {
-    font-size: 4.5rem;
+.hero h1 {
+    font-size: 4rem;
     font-weight: 700;
-    letter-spacing: -1px;
-    margin-bottom: 15px;
+    letter-spacing: -2px;
 }
 
-/* Role */
-.hero-content h2 {
-    font-size: 1.4rem;
+.hero h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
-    color: #9e9e9e;
-    margin-bottom: 25px;
+    color: #aaaaaa;
 }
 
-/* Description */
-.hero-content p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #cfcfcf;
-    margin-bottom: 40px;
+.hero p {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cccccc;
+    max-width: 600px;
 }
 
 /* Buttons */
 .hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    margin-top: 35px;
 }
 
-.btn-primary,
-.btn-secondary {
-    padding: 12px 28px;
-    border-radius: 6px;
-    font-size: 0.95rem;
-    font-weight: 500;
+.hero-buttons a {
     text-decoration: none;
+    padding: 12px 24px;
+    margin-right: 15px;
+    border-radius: 6px;
+    font-weight: 500;
     transition: all 0.3s ease;
 }
 
 .btn-primary {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: white;
+    color: black;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    background-color: #e6e6e6;
+    background-color: #dddddd;
 }
 
 .btn-secondary {
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #555;
+    color: white;
 }
 
 .btn-secondary:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-h1 {
-    font-size: 8rem !important;
-    color: red !important;
+    background-color: #222;
 }
