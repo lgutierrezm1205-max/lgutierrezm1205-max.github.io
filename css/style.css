@@ -14,7 +14,7 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 140px 20px;
+    padding: 180px 20px 140px 20px;
     text-align: center;
 }
 
@@ -26,18 +26,28 @@ body {
 
 /* Name */
 h1 {
-    font-size: 3.2rem;
-    color: #1f3a5f; /* Azul profesional BA + DA */
-    margin-bottom: 20px;
-    font-weight: 600;
+    font-size: 3.8rem;
+    color: #1f3a5f;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
 /* Subtitle */
 h2 {
-    font-size: 1.5rem;
-    color: #444;
-    margin-bottom: 25px;
+    font-size: 1.3rem;
+    color: #5a5a5a;
+    margin-bottom: 30px;
     font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* Hero Description */
+.hero p {
+    font-size: 1.15rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 45px;
 }
 
 /* Description */
@@ -51,11 +61,12 @@ p {
 /* Buttons */
 .hero-buttons a {
     text-decoration: none;
-    padding: 12px 28px;
-    margin: 0 10px;
-    border-radius: 30px;
+    padding: 14px 34px;
+    margin: 0 12px;
+    border-radius: 50px;
     font-size: 0.95rem;
-    transition: 0.3s ease;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 /* Primary Button */
