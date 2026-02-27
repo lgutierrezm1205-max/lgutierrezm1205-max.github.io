@@ -161,7 +161,25 @@
     </div>
 </section>
 
+<script>
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+    });
+});
 
+document.querySelectorAll(".reveal").forEach(el => {
+    observer.observe(el);
+});
+</script>
+
+
+<section class="about reveal">
+<section class="projects reveal">
+<section class="skills reveal">
+    
     
 </body>
 </html>
