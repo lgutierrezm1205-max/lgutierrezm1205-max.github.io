@@ -139,50 +139,54 @@ p {
 /* ===== PROJECTS SECTION ===== */
 
 .projects {
-    padding: 120px 20px;
-    background-color: #f9fafc;
-    text-align: center;
+    padding: 100px 20px;
+    background-color: #f8f9fb;
 }
 
 .projects h2 {
     font-size: 32px;
     margin-bottom: 60px;
     font-weight: 600;
+    text-align: center;
 }
 
 .project-list {
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
 }
 
 .project-item {
-    margin-bottom: 70px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 800px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+    text-align: left;
 }
 
 .project-item h3 {
     font-size: 22px;
-    margin-bottom: 15px;
-    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1f3a5f;
 }
 
 .project-item p {
     font-size: 16px;
     color: #555;
     line-height: 1.7;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .project-link {
     text-decoration: none;
-    font-weight: 500;
     color: #1f3a5f;
-    border-bottom: 1px solid #1f3a5f;
-    padding-bottom: 3px;
-    transition: 0.3s ease;
+    font-weight: 500;
 }
 
 .project-link:hover {
-    opacity: 0.7;
+    text-decoration: underline;
 }
 
 .project-image {
