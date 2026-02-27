@@ -123,7 +123,7 @@
 </section>
 
 <!-- SKILLS SECTION -->
-<section class="skills">
+<section class="skills reveal">
     <div class="container">
 
         <h2>Technical Skills</h2>
@@ -152,26 +152,9 @@
 
         </div>
 
+    </div>
+</section>
 
-<script>
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-        }
-    });
-});
-
-document.querySelectorAll(".reveal").forEach(el => {
-    observer.observe(el);
-});
-</script>
-
-
-<section class="about reveal">
-<section class="projects reveal">
-<section class="skills reveal">
-    
 <!-- CONTACT SECTION -->
 <section class="contact reveal" id="contact">
     <div class="container">
@@ -192,15 +175,22 @@ document.querySelectorAll(".reveal").forEach(el => {
     </div>
 </section>
 
-
 <footer class="footer">
     <p>
-        © 2026 Luis Gutierrez Mendoza — Data Analyst | Open to Remote Opportunities
+        © 2026 Luis Gutierrez Mendoza — Business Analyst | Data Analyst
     </p>
 </footer>
-    </div>
-</section>
 
-    
-</body>
-</html>
+<script>
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+document.querySelectorAll(".reveal").forEach(el => {
+    observer.observe(el);
+});
+</script>
