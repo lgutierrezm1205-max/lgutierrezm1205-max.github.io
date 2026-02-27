@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,55 +6,63 @@
 }
 
 body {
-    background-color: #0f0f0f;
+    background-color: #0d0d0d;
     color: #ffffff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 40px;
+}
+
+.hero-content {
+    max-width: 900px;
     text-align: center;
-    padding: 0 20px;
 }
 
+/* Name */
 .hero-content h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
 }
 
+/* Role */
 .hero-content h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
-    color: #b3b3b3;
-    margin-bottom: 20px;
+    color: #9e9e9e;
+    margin-bottom: 25px;
 }
 
+/* Description */
 .hero-content p {
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-    color: #d0d0d0;
-    line-height: 1.6;
-    font-size: 1rem;
-}
-
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cfcfcf;
+    margin-bottom: 40px;
 }
 
 /* Buttons */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .btn-primary,
 .btn-secondary {
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: 0.9rem;
     transition: all 0.3s ease;
 }
 
@@ -64,7 +72,8 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #dddddd;
+    transform: translateY(-2px);
+    background-color: #e6e6e6;
 }
 
 .btn-secondary {
