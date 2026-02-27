@@ -164,6 +164,12 @@ p {
     max-width: 800px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.04);
     text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .project-item h3 {
